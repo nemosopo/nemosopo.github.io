@@ -1,0 +1,27 @@
+nav {
+	float: left;
+	padding: 1em;
+
+	min-width: 13em;
+	
+	background-color: #1d2021;
+	color: #ebdbb2;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li {
+	padding: 0.8em;
+}
+
+nav a {
+	color: #fbf1c7;
+	text-decoration: none;
+}
+
