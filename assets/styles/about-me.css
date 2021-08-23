@@ -1,0 +1,13 @@
+#about-me {
+	margin: 2em;
+	display: flex;
+}
+
+#about-me h1 {
+	width: 15em;
+	text-align: right;
+	margin: 0.5em;
+	padding: 0.5em;
+	border-right: 3px solid #b2bb26;
+	color: #79740e;
+}

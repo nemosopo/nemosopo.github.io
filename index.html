@@ -5,7 +5,11 @@
     <title>nemosopo:Ian Griffin</title>
     <link rel="stylesheet" href="/assets/styles/main.css">
     <link rel="stylesheet" href="/assets/styles/nav.css">
+    <link rel="stylesheet" href="/assets/styles/sections.css">
+    <link rel="stylesheet" href="/assets/styles/profile.css">
+    <link rel="stylesheet" href="/assets/styles/contact.css">
   </head>
+
   <body>
     <div id="content">
       <nav>
@@ -21,29 +25,32 @@
 
       <article>
         <section id="profile">
-          <img src="assets/img/me.jpg" alt="Self Potrait">
-          <h1>Ian Griffin</h1>
-          <h4>Tangerang Selatan</h4>
-          <h4>mgriffin@disroot.org</h4>
-          <h4>(+886) 987 004151</h4>
-          <ul id="sosial_media_list">
-            <li><a href="https://linuxrocks.online/@megriffin">Mastodon</a></li>
-            <li><a href="https://pixelfed.social/migriffin">PixelFed</a></li>
-            <li><a href="https://lemmy.ml/u/migriffin">Lemmy</a></li>
-          </ul>
+          <div class="dataWrapper">
+            <div>
+              <h1>Ian Griffin</h1>
+              <h4>Tangerang Selatan</h4>
+              <h4>mgriffin@disroot.org</h4>
+              <h4>(+886) 987 004151</h4>
+              <ul id="sosial_media_list">
+                <li><a href="https://linuxrocks.online/@megriffin">Mastodon</a></li>
+                <li><a href="https://pixelfed.social/migriffin">PixelFed</a></li>
+                <li><a href="https://lemmy.ml/u/migriffin">Lemmy</a></li>
+              </ul>
+            </div>
+            <img src="assets/img/me.jpg" alt="Self Potrait">
+          </div>
           <hr>
         </section>
-        <section id="about-me">
-          <h1>About Me</h1>
-          <br>
+
+        <section id="about-me" class="stdSection leftSection">
+          <h1 style-"border-right-color: #98971a;">About Me</h1>
           <p>
             I am a youth who is happy and loves to learn new things, can adapt quickly and learn new knowledges and skills quickly, likes to keep up with the new advances in technologies, so that they can become productive and useful individuals for society.
              With knowledge and technology that keeps up with the times, I hope can participate in advancing Indonesia, together.
           </p>
         </section>
-        <section id="work-experience">
-          <h1>Work Experience</h1>
-          <br>
+
+        <section id="work-experience" class="stdSection rightSection">
           <table>
             <tr>
               <th>Company</th>
@@ -55,18 +62,20 @@
               <td colspan="4">None</td>
             </tr>
           </table>
+          <h1>Work Experience</h1>
         </section>
-        <section id="education">
+
+        <section id="education" class="stdSection leftSection">
           <h1>Education</h1>
           <br>
-          <h4>Tunghai University</h4>
-          <hr>
-          <h5>Computer Science</h5>
-          <h5>2020-Now</h5>
+          <div id="school">
+            <h4>Tunghai University</h4>
+            <hr>
+            <h5>Computer Science</h5>
+            <h5>2020-Now</h5>
+          </div>
         </section>
-        <section id="skills">
-          <h1>Skills</h1>
-          <br>
+        <section id="skills" class="stdSection rightSection">
           <ol>
             <li>C/C++</li>
             <li>Python</li>
@@ -78,10 +87,12 @@
             <li>Inkscape</li>
             <li>Linux/Unix Administration</li>
           </ol>
+          <h1>Skills</h1>
         </section>
+
         <section id="contact-me">
           <h1>Contact Me</h1>
-          <form>
+          <form id="contactform">
             <label for="firstname">First Name</label><br>
             <input type="text" id="firstname" name="firstname" placeholder="first name"><br>
             <label for="lastname">Last Name</label><br>
@@ -106,6 +117,7 @@
             <label for="mesg">Other</label><br>
             <input type="text" id="otherc" name="otherc" placeholder="Name of Country"><br>
           </form>
+          <textarea name="message" id="message" form="contactform" placeholder="type your message here"></textarea>
         </section>
       </article>
     </div>

@@ -1,0 +1,30 @@
+#profile {
+	background-color: #fbf1c7;
+	margin: 2em;
+}
+
+#profile .dataWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items; stretch;
+}
+
+#profile .dataWrapper div {
+	padding: 0.5em;
+	padding-top: 0em;
+}
+#profile img {
+	max-height: 18em;
+	margin: 0px;
+	padding: 0px;
+}
+
+#profile hr {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	background-color: #af3a03;
+	min-height: 4px;
+}
+

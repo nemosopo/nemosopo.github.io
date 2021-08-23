@@ -1,0 +1,36 @@
+#contact-me {
+	border-top: 4px solid #b16286;
+	background-color: #f2e5bc;
+	margin: 2em;
+	display: flex;
+}
+
+#contact-me h1 {
+	margin: 1em;
+	margin-right: 0px; }
+
+#contact-me form {
+	margin: 1em;
+	margin-right: 0px;
+}
+
+form > input[type=text] {
+	background-color: #f9f5d7;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+form > input[type=text] :focus {
+	outline: 3px solid #458588;
+}
+
+#contact-me textarea {
+	margin: 1em;
+	background-color: #f9f5d7;
+	flex: 1;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#contact-me textarea :focus {
+	outline: 3px solid #458588;
+}

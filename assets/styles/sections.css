@@ -1,0 +1,32 @@
+.stdSection {
+	display: flex;
+	margin: 2em;
+}
+
+.stdSection h1 {
+	margin: 0.5em;
+	padding: 0.5em;
+	max-width: 14em;
+}
+
+.leftSection {
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.leftSection h1 {
+	text-align: right;
+	border-right-width: 3px;
+	border-right-style: solid;
+}
+
+.rightSection {
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.rightSection h1 {
+	text-align: left;
+	border-left-width: 3px;
+	border-left-style: solid;
+}
