@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>nemosopo:Ian Griffin</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+  </head>
+
+  <body>
+    <h1>Fibonacci Number generator</h1>
+    <script type="text/javascript" src="js/fibonacci.js"></script>
+    <script src="js/formHandler.js"></script>
+    <form id="fiboform" onsubmit="event.preventDefault(); readFiboForm();">
+      <label for="len">enter fibonacci length</label><br>
+      <input type="text" id="fiboLenInput" name="fiboLenInput" placeholder="Length"><br>
+      <input type="submit" id="fiboLenSubmit" name="fiboLenSubmit" value="Submit">
+    </form>
+    <div id="fiboForRes"></div>
+    <div id="fiboRecRes"></div>
+  </body>
+</html>
