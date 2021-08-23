@@ -5,14 +5,14 @@ function readFiboForm() {
 	fiboRes = fiboWithFor(fiboLen);
 	console.timeLog("fiboWithFor");
 	console.log("result: ", fiboRes);
-	document.getElementById("fiboForRes").appendChild(document.createTextNode("(For) Number:" + String(fiboRes) + "<br>"));
+	document.getElementById("fiboForRes").appendChild(document.createTextNode("(For) Number:" + String(fiboRes)));
 	console.timeEnd("fiboWithFor");
 	
 	console.time("fiboWithRec");
 	fiboRes = fiboWithRec(fiboLen);
 	console.timeLog("fiboWithRec");
 	console.log("result: ", fiboRes);
-	document.getElementById("fiboRecRes").appendChild(document.createTextNode("(Rec) Number:" + String(fiboRes) + "<br>"));
+	document.getElementById("fiboRecRes").appendChild(document.createTextNode("(Rec) Number:" + String(fiboRes)));
 	console.timeEnd("fiboWithRec");
 	
 	return false;
